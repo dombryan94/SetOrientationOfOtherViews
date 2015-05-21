@@ -12,7 +12,13 @@ var presses = 1
 
 class ViewController: UIViewController {
 
+    override func supportedInterfaceOrientations() -> Int {
+        return Int(UIInterfaceOrientationMask.Portrait.rawValue) //& Int(UIInterfaceOrientationMask.PortraitUpsideDown.rawValue)
+    }
     
+    override func shouldAutorotate() -> Bool {
+        return true
+    }
     
     @IBOutlet weak var setOrientationButton: UIButton!
     

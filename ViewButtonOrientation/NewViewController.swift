@@ -24,6 +24,9 @@ class NewViewController: UIViewController {
         }
     }
     
+    override func shouldAutorotate() -> Bool {
+        return true
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
