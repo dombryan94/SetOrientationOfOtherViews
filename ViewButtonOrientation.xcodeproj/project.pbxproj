@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B7325121B0E7ED500084624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7325111B0E7ED500084624 /* AppDelegate.swift */; };
+		3B7325141B0E7ED500084624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7325131B0E7ED500084624 /* ViewController.swift */; };
+		3B7325171B0E7ED500084624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7325151B0E7ED500084624 /* Main.storyboard */; };
+		3B7325191B0E7ED500084624 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7325181B0E7ED500084624 /* Images.xcassets */; };
+		3B73251C1B0E7ED500084624 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B73251A1B0E7ED500084624 /* LaunchScreen.xib */; };
+		3B7325281B0E7ED500084624 /* ViewButtonOrientationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7325271B0E7ED500084624 /* ViewButtonOrientationTests.swift */; };
+		3B7325321B0E806200084624 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7325311B0E806200084624 /* NewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B7325221B0E7ED500084624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7325041B0E7ED500084624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B73250B1B0E7ED500084624;
+			remoteInfo = ViewButtonOrientation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B73250C1B0E7ED500084624 /* ViewButtonOrientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewButtonOrientation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7325101B0E7ED500084624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7325111B0E7ED500084624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B7325131B0E7ED500084624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B7325161B0E7ED500084624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7325181B0E7ED500084624 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B73251B1B0E7ED500084624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B7325211B0E7ED500084624 /* ViewButtonOrientationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewButtonOrientationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7325261B0E7ED500084624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7325271B0E7ED500084624 /* ViewButtonOrientationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewButtonOrientationTests.swift; sourceTree = "<group>"; };
+		3B7325311B0E806200084624 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7325091B0E7ED500084624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B73251E1B0E7ED500084624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7325031B0E7ED500084624 = {
+			isa = PBXGroup;
+			children = (
+				3B73250E1B0E7ED500084624 /* ViewButtonOrientation */,
+				3B7325241B0E7ED500084624 /* ViewButtonOrientationTests */,
+				3B73250D1B0E7ED500084624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B73250D1B0E7ED500084624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B73250C1B0E7ED500084624 /* ViewButtonOrientation.app */,
+				3B7325211B0E7ED500084624 /* ViewButtonOrientationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B73250E1B0E7ED500084624 /* ViewButtonOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				3B7325111B0E7ED500084624 /* AppDelegate.swift */,
+				3B7325131B0E7ED500084624 /* ViewController.swift */,
+				3B7325311B0E806200084624 /* NewViewController.swift */,
+				3B7325151B0E7ED500084624 /* Main.storyboard */,
+				3B7325181B0E7ED500084624 /* Images.xcassets */,
+				3B73251A1B0E7ED500084624 /* LaunchScreen.xib */,
+				3B73250F1B0E7ED500084624 /* Supporting Files */,
+			);
+			path = ViewButtonOrientation;
+			sourceTree = "<group>";
+		};
+		3B73250F1B0E7ED500084624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B7325101B0E7ED500084624 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B7325241B0E7ED500084624 /* ViewButtonOrientationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7325271B0E7ED500084624 /* ViewButtonOrientationTests.swift */,
+				3B7325251B0E7ED500084624 /* Supporting Files */,
+			);
+			path = ViewButtonOrientationTests;
+			sourceTree = "<group>";
+		};
+		3B7325251B0E7ED500084624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B7325261B0E7ED500084624 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B73250B1B0E7ED500084624 /* ViewButtonOrientation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B73252B1B0E7ED500084624 /* Build configuration list for PBXNativeTarget "ViewButtonOrientation" */;
+			buildPhases = (
+				3B7325081B0E7ED500084624 /* Sources */,
+				3B7325091B0E7ED500084624 /* Frameworks */,
+				3B73250A1B0E7ED500084624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewButtonOrientation;
+			productName = ViewButtonOrientation;
+			productReference = 3B73250C1B0E7ED500084624 /* ViewButtonOrientation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B7325201B0E7ED500084624 /* ViewButtonOrientationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B73252E1B0E7ED500084624 /* Build configuration list for PBXNativeTarget "ViewButtonOrientationTests" */;
+			buildPhases = (
+				3B73251D1B0E7ED500084624 /* Sources */,
+				3B73251E1B0E7ED500084624 /* Frameworks */,
+				3B73251F1B0E7ED500084624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7325231B0E7ED500084624 /* PBXTargetDependency */,
+			);
+			name = ViewButtonOrientationTests;
+			productName = ViewButtonOrientationTests;
+			productReference = 3B7325211B0E7ED500084624 /* ViewButtonOrientationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7325041B0E7ED500084624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Dom Bryan";
+				TargetAttributes = {
+					3B73250B1B0E7ED500084624 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3B7325201B0E7ED500084624 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3B73250B1B0E7ED500084624;
+					};
+				};
+			};
+			buildConfigurationList = 3B7325071B0E7ED500084624 /* Build configuration list for PBXProject "ViewButtonOrientation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7325031B0E7ED500084624;
+			productRefGroup = 3B73250D1B0E7ED500084624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B73250B1B0E7ED500084624 /* ViewButtonOrientation */,
+				3B7325201B0E7ED500084624 /* ViewButtonOrientationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B73250A1B0E7ED500084624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7325171B0E7ED500084624 /* Main.storyboard in Resources */,
+				3B73251C1B0E7ED500084624 /* LaunchScreen.xib in Resources */,
+				3B7325191B0E7ED500084624 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B73251F1B0E7ED500084624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7325081B0E7ED500084624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7325321B0E806200084624 /* NewViewController.swift in Sources */,
+				3B7325141B0E7ED500084624 /* ViewController.swift in Sources */,
+				3B7325121B0E7ED500084624 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B73251D1B0E7ED500084624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7325281B0E7ED500084624 /* ViewButtonOrientationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B7325231B0E7ED500084624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B73250B1B0E7ED500084624 /* ViewButtonOrientation */;
+			targetProxy = 3B7325221B0E7ED500084624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B7325151B0E7ED500084624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7325161B0E7ED500084624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B73251A1B0E7ED500084624 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B73251B1B0E7ED500084624 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7325291B0E7ED500084624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B73252A1B0E7ED500084624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B73252C1B0E7ED500084624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewButtonOrientation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B73252D1B0E7ED500084624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewButtonOrientation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B73252F1B0E7ED500084624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ViewButtonOrientationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewButtonOrientation.app/ViewButtonOrientation";
+			};
+			name = Debug;
+		};
+		3B7325301B0E7ED500084624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ViewButtonOrientationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewButtonOrientation.app/ViewButtonOrientation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7325071B0E7ED500084624 /* Build configuration list for PBXProject "ViewButtonOrientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7325291B0E7ED500084624 /* Debug */,
+				3B73252A1B0E7ED500084624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B73252B1B0E7ED500084624 /* Build configuration list for PBXNativeTarget "ViewButtonOrientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B73252C1B0E7ED500084624 /* Debug */,
+				3B73252D1B0E7ED500084624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B73252E1B0E7ED500084624 /* Build configuration list for PBXNativeTarget "ViewButtonOrientationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B73252F1B0E7ED500084624 /* Debug */,
+				3B7325301B0E7ED500084624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7325041B0E7ED500084624 /* Project object */;
+}
